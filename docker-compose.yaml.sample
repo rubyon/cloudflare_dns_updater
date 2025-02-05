@@ -1,6 +1,6 @@
 services:
   cloudflare-updater:
-    image: hub.rubyon.co.kr:cloudflare_dns_updater
+    image: hub.rubyon.co.kr/cloudflare_dns_updater
     container_name: cloudflare-dns-updater
     restart: always
     environment:
